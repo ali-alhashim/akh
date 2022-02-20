@@ -1,0 +1,271 @@
+
+html{
+    height: 100%;
+}
+
+
+/* Footer */
+
+#footerID
+{
+   
+    color: #fff;
+ 
+    width: 100%;
+    height: 100px;
+   
+   
+}
+
+
+#logoInFooter
+{
+    padding: 3px;
+    margin-top: 5px;
+    
+}
+
+#footerRow
+{
+    background-color: rgb(27, 78, 156); 
+    width: 100%;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    height: 150px;
+    margin: 0;
+}
+
+#footerLastLine
+{
+    background-color: rgb(249, 177, 10);
+    color:black;
+   
+   
+   
+    
+}
+
+/*carousel*/
+.carousel-inner
+{
+   
+  
+   
+   box-shadow: 1px 1px 10px gray;
+}
+
+
+
+
+
+/*Welcome to akh website*/
+
+.WordsContainer
+{
+    position: relative;
+    height: 50px;
+    line-height: 100px;
+    margin: 20px auto;
+}
+.word
+{
+    font-size: 2em;
+    opacity:0;
+    position: absolute;
+}
+
+@keyframes w1anim {
+    0%{
+      opacity: 0;
+    }
+    10%{
+      opacity: 1;
+    }
+    20% {
+      opacity:0;
+    }
+  }
+  @keyframes w2anim {
+    20%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    40% {
+      opacity:0;
+    }
+  }
+  @keyframes w3anim {
+    40%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    60% {
+      opacity:0;
+    }
+  }
+  @keyframes w4anim {
+    60%{
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+    }
+    80% {
+      opacity:0;
+    }
+  }
+  @keyframes w5anim {
+    80%{
+      opacity: 0;
+    }
+    90%{
+      opacity: 1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+
+  .w1 {
+    -webkit-animation: w1anim 20s infinite;
+            animation: w1anim 20s infinite;
+  }
+  .w2 {
+    -webkit-animation: w2anim 20s infinite;
+            animation: w2anim 20s infinite;
+  }
+  .w3 {
+    -webkit-animation: w3anim 20s infinite;
+            animation: w3anim 20s infinite;
+  }
+  .w4 {
+    -webkit-animation: w4anim 20s infinite;
+            animation: w4anim 20s infinite;
+  }
+  .w5 {
+    -webkit-animation: w5anim 20s infinite;
+            animation: w5anim 20s infinite;
+  }
+
+
+/* end Welcome to akh website*/
+
+
+.bg-LightGray
+{
+  background-color: rgb(158, 161, 160);
+}
+
+
+/*News & Media */
+
+.subjectTitle
+{
+  padding: 10px;
+ 
+  background-color: rgba(255, 255, 255, 0.267);
+ 
+  border-left: solid rgb(27, 78, 156) 4px;
+
+  border-right: solid rgb(27, 78, 156) 4px;
+  
+}
+
+.btn-akhBule
+{
+  background-color: rgb(27, 78, 156) !important;
+  color:#fff;
+}
+
+.btn-akhBule:hover{
+  color:#fff;
+  background-color: rgb(34, 101, 202) !important;
+}
+
+.btn-akhOrange{
+  background-color: rgb(249, 177, 10) !important;
+  color:black;
+}
+
+.btn-akhOrange:hover{
+  background-color: rgb(252, 189, 41) !important;
+  color:black;
+  transition: box-shadow 0.3s ease;
+  box-shadow: #fff 1px 1px 10px;
+ 
+}
+
+
+/**nav bar**/
+
+.nav ul {
+  justify-content: space-between;
+  display: flex;
+  padding: 0;
+  }
+
+  .nav-item 
+  {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 0;
+  }
+
+.nav-item >a
+{
+  border-bottom: solid 4px rgb(255, 255, 255);
+  transition: border 0.5s ease;
+  padding: 10px;
+  padding-bottom:10px
+
+}
+
+.nav-item:hover >a
+{
+  transition: border 1s ;
+  
+  
+  border-bottom: solid 4px rgb(249, 177, 10);
+
+  padding-bottom : 1px;
+
+  transition: padding-bottom 0.5s ease;
+
+  font-weight: bolder;
+  
+  
+
+}
+
+
+.btn-footer
+{
+  color: #fff;
+ 
+
+}
+
+.btn-footer:hover
+{
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(190, 185, 185, 0.37);
+}
+
+/*loginBox*/
+
+.loginBox
+{
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+
+
+
